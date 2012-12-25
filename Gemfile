@@ -1,13 +1,11 @@
-source 'http://ruby.taobao.org'
+source :rubygems
 
 gem 'rails', '3.2.9'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-# gem 'pg'
-gem 'mysql2'
-
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -63,7 +61,7 @@ gem 'mime-types'
 gem 'redcarpet'
 gem 'coderay'
 gem 'kgio'
-gem 'dalli'
+# gem 'dalli'
 gem 'acts_as_list'
 gem 'rails-settings-cached', '= 0.2.1'
 gem 'facebox-rails', '~> 0.1.2'
@@ -72,4 +70,3 @@ gem 'default_value_for', '~> 2.0.1'
 gem 'less-rails-bootstrap', '~> 2.2.0'
 gem 'slim-rails', '~> 1.0.3'
 gem 'simple_form', '~> 2.0.4'
-
