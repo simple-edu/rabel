@@ -18,7 +18,6 @@
 .cache_rake_t
 /.sass-cache
 /public/uploads/
-/public/assets/
 chromedriver.log
 /vendor/bundle/
 /*.sh
