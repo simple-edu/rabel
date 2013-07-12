@@ -28,4 +28,4 @@ chromedriver.log
 /logfile
 config/application.yml
 config/database.yml
-
+config/deploy.rb
