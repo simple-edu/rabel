@@ -54,6 +54,7 @@ group :development do
   gem 'quiet_assets', '~> 1.0.1'
   gem 'awesome_print'
   gem 'better_errors'
+  gem 'mina'
 end
 
 gem 'haml'
