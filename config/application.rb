@@ -57,10 +57,6 @@ module Rabel
     # Enable whitelist mass assignment protection by default
     config.active_record.whitelist_attributes = true
 
-    config.before_configuration do
-      APP_CONFIG = YAML.load_file(Rails.root.join('config', 'settings.yml'))[Rails.env]
-      # config.cache_store = :dalli_store, *APP_CONFIG['memcached']['servers'], {:namespace => APP_CONFIG['memcached']['namespace']}
-    end
     # Don't access the DB when precompiling the assets
     config.assets.initialize_on_precompile = false
   end
