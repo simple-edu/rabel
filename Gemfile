@@ -23,9 +23,6 @@ gem 'jquery-ui-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
-# Use unicorn as the web server
-gem 'unicorn'
-
 # Deploy with Capistrano
 # gem 'capistrano'
 
@@ -34,6 +31,7 @@ gem 'unicorn'
 
 group :production do
   gem 'rabel-meta', '1.5'
+  gem 'unicorn'
 end
 
 group :test, :development do
@@ -55,6 +53,7 @@ group :development do
   gem 'awesome_print'
   gem 'better_errors'
   gem 'mina'
+  gem 'thin', '~> 1.5.0'
 end
 
 gem 'haml'
@@ -77,5 +76,4 @@ gem 'bootstrap-sass', '~> 2.3.2.0'
 gem 'slim-rails', '~> 1.0.3'
 gem 'simple_form', '~> 2.0.4'
 gem 'foreman', '~> 0.61.0'
-gem 'thin', '~> 1.5.0'
 gem 'figaro'
